@@ -1,0 +1,34 @@
+.toaster-wrapper {
+  height: 100vh;
+  width: 300px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.toaster-container {
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: red;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.toaster-image {
+  width: 50px;
+  height: inherit;
+}
+
+.toaster-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: flex-start;
+}
